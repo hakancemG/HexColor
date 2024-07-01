@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Playwrite+AU+NSW:wght@100..400&family=Playwrite+ES+Deco:wght@100..400&display=swap');
+
+body{
+    font-family: "Playwrite ES Deco", cursive;
+}
+.container{
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hex-colors{
+    text-align: center;
+}
+.hex-colors h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: changecolor 5s infinite alternate;
+}
+.hex-colors h2{
+    border: 1px solid black;
+    font-size: 2rem;
+    margin: 15%;
+}
+
+@keyframes changecolor{
+    0%{
+        color: indigo;
+    }
+    20%{
+        color: blue;
+    }
+    40%{
+        color: green;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: orange;
+    }
+    100%{
+        color: red;
+    }
+}
